@@ -13,6 +13,7 @@ import numpy as np
 from dotenv import load_dotenv
 load_dotenv()
 from sys import platform
+import gensim.downloader as api
 from gensim.models import Word2Vec, KeyedVectors
 from nltk.tokenize import word_tokenize
 import nltk
@@ -105,12 +106,16 @@ def prepare_sentences(categories_file, products_file):
 def finetune_word2vec(pretrained_path, sentences, output_path):
     """Finetune the Word2Vec model"""
     print("Loading pretrained model...")
-    if pretrained_path.lower().find(".txt"):
-        pretrained_model = Word2Vec.load(pretrained_path)
+    if pretrained_path.lower().find(".txt")>=1:
+        # pretrained_model = api.load(pretrained_path)
+        pretrained_path=pretrained_path.lower().replace(".txt","")
+        pretrained_path=api.load("glove-twitter-200",return_path=True).replace("\\","/")
+        print(pretrained_path)
+        pretrained_model=api.load("glove-twitter-200")
     else:
         pretrained_model = KeyedVectors.load_word2vec_format(
             pretrained_path,
-            binary=True if pretrained_path.lower().find(".bin") else False
+            binary=True if pretrained_path.lower().find(".bin")>=0 else False
         )
     
     print("Initializing new model...")
@@ -129,16 +134,16 @@ def finetune_word2vec(pretrained_path, sentences, output_path):
     # Initialize vectors_lockf
     model.wv.vectors_lockf = np.ones(len(model.wv), dtype=np.float32)
     print("Loading pretrained embeddings...")
-    model.wv.intersect_word2vec_format(pretrained_path, binary=True, lockf=1.0)
+    model.wv.intersect_word2vec_format(pretrained_path, binary=True if pretrained_path.lower().find(".bin")>=0 else False, lockf=1.0)
     print("Training model...")
     model.train(
         sentences,
         total_examples=total_examples,
-        epochs=7
+        epochs=10
     )
     # Save the model
     print("Saving model...")
-    model.save(f"{output_path}{Sep((pretrained_path)[1]).replace(".bin","").replace(".txt","")}.model")
+    model.save(f"{output_path}{(Sep(pretrained_path)[1]).replace(".bin","").replace(".txt","")}.model")
     # model.wv.save_word2vec_format(f"{output_path}_word2vec.bin", binary=True)
     
     return model
@@ -193,7 +198,7 @@ def texts_to_vectors(model, texts, vector_size=300):
 def main():
     # File paths
     # PRETRAINED_PATH = "Y:/bins/GoogleNews-vectors-negative300.bin"
-    PRETRAINED_PATH = "Y:/bins/glove.twitter.27B.200d.txt"
+    PRETRAINED_PATH = "Y:/bins/conceptnet-numberbatch-300-17-06"
     OUTPUT_PATH = "WordBags/FN_"
     
     # Prepare sentences
