@@ -1,8 +1,12 @@
 # Initial commands
 ```
 python -m venv /LILOTest
+```
+This command creates a new virtual environment in the `/LILOTest` directory.
+```
 c:\LILOTest\Scripts\activate
 ```
+This command activates the virtual environment. You can verify that it's active by checking command
 # install dependences:
 ```
 pip install --upgrade pip
@@ -25,6 +29,7 @@ pip install -U langchain-community
 pip install langchain_ollama
 pip install langchain_openai
 pip install langchain-chroma
+pip install nltk
 ```
 
 # ollama

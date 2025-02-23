@@ -14,7 +14,17 @@ import time
 import numpy as np
 from dotenv import load_dotenv
 load_dotenv()
-RUTABASE="X:/LILO/LILO-Categories-Test/"
+from sys import platform
+if platform == "linux" or platform == "linux2":
+   # linux
+   addLetter=""
+elif platform == "darwin":
+    # OS X
+    addLetter=""
+elif platform == "win32":
+    # Windows...
+    addLetter="X:"
+RUTABASE=addLetter+"/LILO/LILO-Categories-Test/"
 FILE_CATEG=Une(RUTABASE,"Resources/categories.csv")
 FILE_PRODU=Une(RUTABASE,"Resources/products.csv")
 RUTACHROMA=RUTABASE+"LocalLLM/VectorDB2/"
@@ -177,7 +187,7 @@ def main():
             else:
                 voteBox[Clase[0]]+=Clase[1]
         ListCategories.append([kv[0] for kv in voteBox.items() if kv[1] == max(voteBox.values())][0])
-        if iPr%20==0:
+        if iPr%4020==0:
             # print(vector["embeddings"],"|",results2[0][1],"|",results2[0][0])
             print(textListALL[iPr],"|",results2[0][0].metadata["clase"],"|",results2[0][0].page_content)
             if iPr==0:
@@ -222,7 +232,7 @@ def calculate_chunk_ids(chunks,IdSimple:bool=False):
         page = chunk.metadata.get("index")
         nivel=chunk.metadata.get("nivel")
         if IdSimple:
-            current_page_id = f"{source.split("/")[-1]}{page}"
+            current_page_id = f"{source.split('/')[-1]}{page}"
         else:
             current_page_id = f"{source.split('/')[-1]}:{page}:{nivel}"
 
