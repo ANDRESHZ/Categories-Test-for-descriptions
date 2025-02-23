@@ -121,7 +121,7 @@ def main():
         textAct=textListALL[iPr]
         doclist.append(Document(page_content=textAct,metadata={"source": Sep(FILE_PRODU)[-1],"index":iPr}))
     
-    doclist=doclist[0:201]
+    # doclist=doclist[0:201]
     
     add_to_chroma_Multiple(chunks=doclist,Nsim=symbols,embfunc=embedings,MODEL=(COL_NAME_PROD+colectionName),pathChroma=RUTACHROMA_PRODUCTS,embModels=WordEmbModels)
     

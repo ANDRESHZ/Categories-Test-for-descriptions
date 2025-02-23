@@ -13,7 +13,17 @@ from langchain_core.documents import Document
 import time
 from dotenv import load_dotenv
 load_dotenv()
-RUTABASE="X:/LILO/LILO-Categories-Test/"
+from sys import platform
+if platform == "linux" or platform == "linux2":
+   # linux
+   addLetter=""
+elif platform == "darwin":
+    # OS X
+    addLetter=""
+elif platform == "win32":
+    # Windows...
+    addLetter="X:"
+RUTABASE=addLetter+"/LILO/LILO-Categories-Test/"
 FILE_CATEG=Une(RUTABASE,"Resources/categories.csv")
 FILE_PRODU=Une(RUTABASE,"Resources/products.csv")
 RUTACHROMA=RUTABASE+"LocalLLM/VectorDB2/"
@@ -171,7 +181,7 @@ def calculate_chunk_ids(chunks,IdSimple:bool=False):
         page = chunk.metadata.get("index")
         nivel=chunk.metadata.get("nivel")
         if IdSimple:
-            current_page_id = f"{source.split("/")[-1]}{page}"
+            current_page_id = f"{source.split('/')[-1]}{page}"
         else:
             current_page_id = f"{source.split('/')[-1]}:{page}:{nivel}"
 
