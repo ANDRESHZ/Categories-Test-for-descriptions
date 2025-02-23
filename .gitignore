@@ -166,7 +166,5 @@ Resources/products.csv
 *.bin
 *.sqlite3
 /LocalLLM/VectorDB_Products
-*.sqlite3
 /LocalLLM/VectorDB2
-/LocalLLM/VectorDB
 /LocalLLM/VectorDB
