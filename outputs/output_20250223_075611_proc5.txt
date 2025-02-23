@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "X:\LILO\LILO-Categories-Test\LocalLLM\OneLLM_MultEmbVoting\RunOneLLM_MultEmbVoteDIVIDE.py", line 37, in <module>
-    import get_embedding_function as emb
-  File "X:\LILO/LILO-Categories-Test/LocalLLM\get_embedding_function.py", line 4, in <module>
-    from langchain_openai import OpenAIEmbeddings
-ModuleNotFoundError: No module named 'langchain_openai'
