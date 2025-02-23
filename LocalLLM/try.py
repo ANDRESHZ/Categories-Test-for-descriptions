@@ -16,6 +16,7 @@ FILE_PRODU=Une(RUTABASE,"Resources\\products.csv")
 RUTACHROMA=RUTABASE+"\\LocalLLM\\VectorDB"
 local_llm="llama3.1" if os.getenv('LLM_MODEL')==None else os.getenv('LLM_MODEL') 
 def main():
+    local_llm="deepseek-r1:8b"
     print(local_llm)
     parser = argparse.ArgumentParser()
     parser.add_argument("--nosymbols", action="store_true", help="usar simbolos en el cdm")

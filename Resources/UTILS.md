@@ -45,8 +45,10 @@ ollama pull llama3.1
 ollama pull deepseek-r1:8b
 ollama pull deepseek-r1:7b
 ```
+**_I USED tHIS ONE: ollama pull deepseek-r1:8b_**
 
-## obtain word embdings model 
+
+## obtain word embdings model (used on the 3th Solution)
 embModels=["bge-m3","granite-embedding:278m","snowflake-arctic-embed2", "avr/sfr-embedding-mistral","mxbai-embed-large", "nomic-embed-text"] the models used depend of the task, you can use one or more models, you can use the following command to download the models
 ```
 ollama pull bge-m3

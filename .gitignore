@@ -161,3 +161,12 @@ cython_debug/
 src/products.csv
 Challenge/products.csv
 Resources/products.csv
+/LocalLLM/VectorDB
+/LocalLLM/VectorDB
+*.bin
+*.sqlite3
+/LocalLLM/VectorDB_Products
+*.sqlite3
+/LocalLLM/VectorDB2
+/LocalLLM/VectorDB
+/LocalLLM/VectorDB
