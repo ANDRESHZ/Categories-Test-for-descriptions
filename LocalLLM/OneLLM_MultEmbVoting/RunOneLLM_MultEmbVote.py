@@ -38,7 +38,7 @@ import get_embedding_function as emb
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--port", type=str, default=10, help="puerto local")
+    # parser.add_argument("--port", type=str, default=10, help="puerto local")
     parser.add_argument("--nosymbols", action="store_true", help="usar simbolos en el cdm")
     parser.add_argument("--openai", action="store_true", help="usar open ai embeddings Falso si es Local")
     parser.add_argument("--model",type=str, default=None, help="modelo a usar en Embedings")
