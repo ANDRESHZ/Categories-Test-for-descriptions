@@ -12,7 +12,13 @@ This document details three distinct approaches developed to categorize products
 - [Installation and Execution Instructions](#installation-and-execution-instructions)
 
 ---
-
+[**RUN WITH COLAB**](Https://github.com/ANDRESHZ/LILO-Categories-Test/blob/main/Utils/OneLLM_MultEmbVoting.ipynb)
+<br/>
+<div align="center"><button><a href="https://colab.research.google.com/github/ANDRESHZ/LILO-Categories-Test/blob/main/Utils/OneLLM_MultEmbVoting.ipynb"><img heght="20px"/><img
+  src="https://colab.research.google.com/assets/colab-badge.svg"
+  alt="open with Colab" width="200px"/></a></button></div>
+<br/>
+---
 ## Approach 1: Single Embedding Model with Direct Similarity Search
 
 In this approach, a single embedding model is used to convert both category and product texts into vector representations. The process is as follows:
