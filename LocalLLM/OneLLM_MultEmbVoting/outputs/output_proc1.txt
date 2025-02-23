@@ -1,0 +1,58 @@
+>>>>>>>>>>>> divi= 15  | idprceso= 1 <<<<<<<<<<<<<
+Using local embeddings
+Work with >>>>>> 🏷 deepseek-r1:8b
+Calculating Chunks IDs
+  0%|          | 0/1138 [00:00<?, ?it/s]100%|██████████| 1138/1138 [00:00<00:00, 569788.46it/s]
+Check Chunks for: 1138 with word embed model >> bge-m3
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> bge-m3
+100%|██████████| 1138/1138 [00:00<00:00, 1134296.09it/s]
+Check Chunks for: 1138 with word embed model >> granite-embedding:278m
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> granite-embedding:278m
+100%|██████████| 1138/1138 [00:00<00:00, 1137268.99it/s]
+Check Chunks for: 1138 with word embed model >> snowflake-arctic-embed2
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> snowflake-arctic-embed2
+100%|██████████| 1138/1138 [00:00<00:00, 569720.45it/s]
+Check Chunks for: 1138 with word embed model >> avr/sfr-embedding-mistral
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> avr/sfr-embedding-mistral
+100%|██████████| 1138/1138 [00:00<00:00, 1137268.99it/s]
+Check Chunks for: 1138 with word embed model >> mxbai-embed-large
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> mxbai-embed-large
+100%|██████████| 1138/1138 [00:00<00:00, 379451.30it/s]
+Check Chunks for: 1138 with word embed model >> nomic-embed-text
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> nomic-embed-text
+100%|██████████| 1138/1138 [00:00<00:00, 1134026.60it/s]
+Number of document parts in the DB: 1138
+Check Chunks for: 1138 with word Principal model >> deepseek-r1:8b
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137
+100%|██████████| 1138/1138 [00:00<00:00, 569244.84it/s]
+📝 Loading Products
+💽obtaining product embedinds
+  0%|          | 0/49767 [00:00<?, ?it/s] 17%|█▋        | 8418/49767 [00:00<00:00, 83346.08it/s] 34%|███▎      | 16753/49767 [00:00<00:00, 49709.15it/s] 53%|█████▎    | 26565/49767 [00:00<00:00, 65726.88it/s] 69%|██████▊   | 34126/49767 [00:00<00:00, 43893.14it/s] 88%|████████▊ | 43576/49767 [00:00<00:00, 55236.02it/s]100%|██████████| 49767/49767 [00:00<00:00, 57834.49it/s]
+Calculating Chunks IDs
+  0%|          | 0/3327 [00:00<?, ?it/s]100%|██████████| 3327/3327 [00:00<00:00, 1107759.74it/s]
+Check Chunks for: 3327 with word embed model >> bge-m3
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> bge-m3
+100%|██████████| 3327/3327 [00:00<00:00, 665829.25it/s]
+Check Chunks for: 3327 with word embed model >> granite-embedding:278m
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> granite-embedding:278m
+100%|██████████| 3327/3327 [00:00<00:00, 1110492.55it/s]
+Check Chunks for: 3327 with word embed model >> snowflake-arctic-embed2
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> snowflake-arctic-embed2
+100%|██████████| 3327/3327 [00:00<00:00, 664118.09it/s]
+Check Chunks for: 3327 with word embed model >> avr/sfr-embedding-mistral
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> avr/sfr-embedding-mistral
+100%|██████████| 3327/3327 [00:00<00:00, 1108816.00it/s]
+Check Chunks for: 3327 with word embed model >> mxbai-embed-large
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> mxbai-embed-large
+100%|██████████| 3327/3327 [00:00<00:00, 1111465.50it/s]
+Check Chunks for: 3327 with word embed model >> nomic-embed-text
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> nomic-embed-text
+100%|██████████| 3327/3327 [00:00<00:00, 832554.70it/s]
+Number of document parts in the DB: 49767
+Check Chunks for: 3327 with word Principal model >> deepseek-r1_8b
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326
+100%|██████████| 3327/3327 [00:00<00:00, 831760.71it/s]
+💻 📝obtaining product similarities
+  0%|          | 0/3327 [00:00<?, ?it/s]Double Robe Hook categorize as bath or bath hardware or double robe hooks | facilities/outdoor--pool/outdoor--tables | outdoor to tables
+>>>>> {'janitorial--housekeeping/key-cards--accessories/key-cards': 3.6499999999999995, 'guestroom-accessories--supplies/terry/bath-mats--rugs': 7.749999999999999, 'furniture-fixtures--equipment/fixtures/banquet-dining--events/chairs': 27.799999999999997, 'furniture-fixtures--equipment/equipment/safes--security/in-room--office-safes': 3.1999999999999993, 'furniture-fixtures--equipment/lobby-accessories/picture-frames': 13.649999999999999, 'furniture-fixtures--equipment/fixtures/lighting/backlit-mirrors': 3.1999999999999993, 'guestroom-accessories--supplies/ironing-boards-covers--mounts/ironing-board-wall-mounts--organizers': 15.949999999999998, 'food-service--supplies/dining-room--table-top/glassware--drinkware/beverage-glasses': 4.55, 'furniture-fixtures--equipment/lobby-accessories/flower-vases--planters': 7.749999999999999, 'furniture-fixtures--equipment/furniture/back-of-house--office/chair-mats': 9.599999999999998, 'food-service--supplies/furniture/chairs': 43.25, 'furniture-fixtures--equipment/furniture/outdoor--pool/outdoor-tables': 20.95, 'furniture-fixtures--equipment/furniture/outdoor--pool/flags': 3.6499999999999995, 'food-service--supplies/dining-room--table-top/dinnerware/sets': 8.649999999999999, 'food-service--supplies/dining-room--table-top/flatware--serveware/pot-forks': 3.6499999999999995, 'furniture-fixtures--equipment/fixtures/banquet-dining--events/tables': 21.849999999999998, 'furniture-fixtures--equipment/furniture/furniture-collections': 21.849999999999998, 'furniture-fixtures--equipment/furniture/outdoor--pool/outdoor-seating': 10.499999999999998, 'bathroom-accessories--hardware/bathroom-accessories/bathroom-containers': 8.649999999999999, 'furniture-fixtures--equipment/furniture/artwork--mirrors/mirrors': 3.1999999999999993, 'guestroom-accessories--supplies/ironing-boards-covers--mounts/ironing-boards': 9.1, 'food-service--supplies/food--beverage-displays/containers-bowls--caddies': 4.1, 'furniture-fixtures--equipment/furniture/back-of-house--office/back-of-house-seating': 3.1999999999999993, 'food--beverages/beverages/coffee': 11.849999999999998, 'food-service--supplies/furniture/tables': 28.65, 'furniture-fixtures--equipment/fixtures/banquet-dining--events/podiums--lecterns': 13.2, 'furniture-fixtures--equipment/lobby-accessories/sign-holders--stands': 7.299999999999999, 'food-service--supplies/food--beverage-displays/coffee-airpots-urns--accessories': 14.55, 'furniture-fixtures--equipment/lobby-accessories/pillows': 3.6499999999999995, 'food-service--supplies/dining-room--table-top/dinnerware/serving-platters': 3.1999999999999993, 'bathroom-accessories--hardware/public-restrooms/public-restroom-mats': 3.1999999999999993, 'facilities/outdoor--pool/outdoor--tables': 13.649999999999999, 'food-service--supplies/dining-room--table-top/table--banquet-linens/table-skirts--accessories': 3.6499999999999995, 'furniture-fixtures--equipment/furniture/desk--tables': 31.400000000000002, 'food-service--supplies/dining-room--table-top/flatware--serveware/ladles': 6.399999999999999, 'bathroom-accessories--hardware/bathroom-accessories/amenity-trays': 4.55, 'furniture-fixtures--equipment/equipment/ice--commercial-refrigeration/merchandisers': 3.1999999999999993, 'furniture-fixtures--equipment/furniture/countertop': 32.8, 'furniture-fixtures--equipment/furniture/chairs': 44.15, 'furniture-fixtures--equipment/fixtures/hospitality--commercial-seating': 22.349999999999998, 'food-service--supplies/dining-room--table-top/dinnerware/plates': 10, 'guestroom-accessories--supplies/in-room-stationery--accessories/pens--pencils': 8.2, 'maintenance-repairs--operations/tools--equipment/squeegees-and-accessories': 3.6499999999999995, 'food-service--supplies/dining-room--table-top/glassware--drinkware/fine--wine-glasses': 3.6499999999999995, 'furniture-fixtures--equipment/furniture/seating': 7.749999999999999, 'furniture-fixtures--equipment/fixtures/lighting/ceiling-lights': 3.1999999999999993, 'furniture-fixtures--equipment/lobby-accessories/faux-plants': 15.5, 'furniture-fixtures--equipment/fixtures/banquet-dining--events/meeting-accessories': 6.849999999999999, 'guestroom-accessories--supplies/in-room-stationery--accessories/ice-buckets--accessories/cork-screws': 4.1, 'electronics--appliances/coffee-makers--espresso-machines': 3.6499999999999995} <<<<<
+  0%|          | 1/3327 [01:27<80:33:15, 87.19s/it]  0%|          | 2/3327 [01:29<34:20:43, 37.19s/it]  0%|          | 3/3327 [01:31<19:24:12, 21.01s/it]  0%|          | 4/3327 [01:32<12:22:11, 13.40s/it]  0%|          | 5/3327 [01:34<8:28:16,  9.18s/it]   0%|          | 6/3327 [01:36<6:10:58,  6.70s/it]

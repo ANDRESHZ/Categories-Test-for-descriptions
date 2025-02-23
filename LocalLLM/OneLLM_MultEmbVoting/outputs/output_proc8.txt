@@ -1,0 +1,47 @@
+>>>>>>>>>>>> divi= 15  | idprceso= 8 <<<<<<<<<<<<<
+Using local embeddings
+Work with >>>>>> 🏷 deepseek-r1:8b
+Calculating Chunks IDs
+  0%|          | 0/1138 [00:00<?, ?it/s]100%|██████████| 1138/1138 [00:00<00:00, 1139440.91it/s]
+Check Chunks for: 1138 with word embed model >> bge-m3
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> bge-m3
+100%|██████████| 1138/1138 [00:00<00:00, 1138082.49it/s]
+Check Chunks for: 1138 with word embed model >> granite-embedding:278m
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> granite-embedding:278m
+100%|██████████| 1138/1138 [00:00<?, ?it/s]
+Check Chunks for: 1138 with word embed model >> snowflake-arctic-embed2
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> snowflake-arctic-embed2
+100%|██████████| 1138/1138 [00:00<00:00, 1136998.08it/s]
+Check Chunks for: 1138 with word embed model >> avr/sfr-embedding-mistral
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> avr/sfr-embedding-mistral
+100%|██████████| 1138/1138 [00:00<00:00, 1139440.91it/s]
+Check Chunks for: 1138 with word embed model >> mxbai-embed-large
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> mxbai-embed-large
+100%|██████████| 1138/1138 [00:00<00:00, 1135105.34it/s]
+Check Chunks for: 1138 with word embed model >> nomic-embed-text
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> nomic-embed-text
+100%|██████████| 1138/1138 [00:00<?, ?it/s]
+Number of document parts in the DB: 1138
+Check Chunks for: 1138 with word Principal model >> deepseek-r1:8b
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137
+100%|██████████| 1138/1138 [00:00<00:00, 1128396.68it/s]
+📝 Loading Products
+💽obtaining product embedinds
+  0%|          | 0/49767 [00:00<?, ?it/s] 19%|█▊        | 9314/49767 [00:00<00:00, 93135.65it/s] 37%|███▋      | 18628/49767 [00:00<00:00, 46982.62it/s] 52%|█████▏    | 26010/49767 [00:00<00:00, 54814.65it/s] 66%|██████▋   | 33076/49767 [00:00<00:00, 38683.05it/s] 84%|████████▍ | 41780/49767 [00:00<00:00, 49049.41it/s]100%|██████████| 49767/49767 [00:00<00:00, 53254.59it/s]
+Calculating Chunks IDs
+  0%|          | 0/3327 [00:00<?, ?it/s]100%|██████████| 3327/3327 [00:00<00:00, 833250.70it/s]
+Check Chunks for: 3327 with word embed model >> bge-m3
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> bge-m3
+100%|██████████| 3327/3327 [00:00<00:00, 831314.75it/s]
+Check Chunks for: 3327 with word embed model >> granite-embedding:278m
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> granite-embedding:278m
+100%|██████████| 3327/3327 [00:00<00:00, 1109786.02it/s]
+Check Chunks for: 3327 with word embed model >> snowflake-arctic-embed2
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> snowflake-arctic-embed2
+100%|██████████| 3327/3327 [00:00<00:00, 1117160.31it/s]
+Check Chunks for: 3327 with word embed model >> avr/sfr-embedding-mistral
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> avr/sfr-embedding-mistral
+100%|██████████| 3327/3327 [00:00<00:00, 830473.69it/s]
+Check Chunks for: 3327 with word embed model >> mxbai-embed-large
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> mxbai-embed-large
+100%|██████████| 3327/3327 [00:00<00:00, 1112351.49it/s]

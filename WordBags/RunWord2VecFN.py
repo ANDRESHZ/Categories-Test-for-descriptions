@@ -56,7 +56,7 @@ def clean_text(text,cat=False):
         return ' '.join(words)
     return ''
 
-def chunk_sentence(sentence, max_length=50):
+def chunk_sentence(sentence, max_length=2000):
     """Split sentence into chunks of maximum length while preserving words"""
     words = sentence.split()
     chunks = []
@@ -81,6 +81,7 @@ def prepare_sentences(categories_file, products_file):
     products_df = pd.read_csv(products_file,sep=";",header=0,lineterminator='\r',usecols=["uniqueIdentifier","metaTitle","metaDescription","metaSpecs","vendorCategory","vendor"])
     
     sentences = []
+    sentences2 = []
     
     # Process categories
     print("Processing categories...")

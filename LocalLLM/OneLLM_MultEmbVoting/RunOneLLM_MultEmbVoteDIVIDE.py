@@ -56,6 +56,7 @@ def main():
     colectionName=local_llm2.replace(":","_").replace("/","-")
     divi=args.total_processes
     idProceso=args.process_id
+    print(">>>>>>>>>>>> divi=",divi," | idprceso=",idProceso,"<<<<<<<<<<<<<")
     if args.openai:
         print("Using OpenAI embeddings")
         embedings = emb.get_OPENIA_embedding_function(local_llm2)
@@ -130,6 +131,8 @@ def main():
     if endi>=len(textListALL):
         endi=-1
     doclist=doclist[starti:endi]
+    ListUniqueIdentifier=ListUniqueIdentifier[starti:endi]
+    textListALL=textListALL[starti:endi]
     
     add_to_chroma_Multiple(chunks=doclist,Nsim=symbols,embfunc=embedings,MODEL=(COL_NAME_PROD+colectionName),pathChroma=RUTACHROMA_PRODUCTS,embModels=WordEmbModels)
     

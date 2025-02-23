@@ -1,0 +1,58 @@
+>>>>>>>>>>>> divi= 15  | idprceso= 2 <<<<<<<<<<<<<
+Using local embeddings
+Work with >>>>>> 🏷 deepseek-r1:8b
+Calculating Chunks IDs
+  0%|          | 0/1138 [00:00<?, ?it/s]100%|██████████| 1138/1138 [00:00<00:00, 569176.96it/s]
+Check Chunks for: 1138 with word embed model >> bge-m3
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> bge-m3
+100%|██████████| 1138/1138 [00:00<00:00, 1134296.09it/s]
+Check Chunks for: 1138 with word embed model >> granite-embedding:278m
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> granite-embedding:278m
+100%|██████████| 1138/1138 [00:00<00:00, 1138625.47it/s]
+Check Chunks for: 1138 with word embed model >> snowflake-arctic-embed2
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> snowflake-arctic-embed2
+100%|██████████| 1138/1138 [00:00<00:00, 1138082.49it/s]
+Check Chunks for: 1138 with word embed model >> avr/sfr-embedding-mistral
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> avr/sfr-embedding-mistral
+100%|██████████| 1138/1138 [00:00<00:00, 1139440.91it/s]
+Check Chunks for: 1138 with word embed model >> mxbai-embed-large
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> mxbai-embed-large
+100%|██████████| 1138/1138 [00:00<00:00, 569244.84it/s]
+Check Chunks for: 1138 with word embed model >> nomic-embed-text
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137>> nomic-embed-text
+100%|██████████| 1138/1138 [00:00<00:00, 1138625.47it/s]
+Number of document parts in the DB: 1138
+Check Chunks for: 1138 with word Principal model >> deepseek-r1:8b
+  0%|          | 0/1138 [00:00<?, ?it/s]✅ No new documents to add 1138 to 1137
+100%|██████████| 1138/1138 [00:00<00:00, 1136186.13it/s]
+📝 Loading Products
+💽obtaining product embedinds
+  0%|          | 0/49767 [00:00<?, ?it/s] 18%|█▊        | 8847/49767 [00:00<00:00, 88465.44it/s] 36%|███▌      | 17694/49767 [00:00<00:00, 46545.90it/s] 53%|█████▎    | 26193/49767 [00:00<00:00, 56941.16it/s] 66%|██████▋   | 33079/49767 [00:00<00:00, 40104.73it/s] 86%|████████▌ | 42631/49767 [00:00<00:00, 52231.65it/s]100%|██████████| 49767/49767 [00:00<00:00, 55175.04it/s]
+Calculating Chunks IDs
+  0%|          | 0/3327 [00:00<?, ?it/s]100%|██████████| 3327/3327 [00:00<00:00, 1108375.65it/s]
+Check Chunks for: 3327 with word embed model >> bge-m3
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> bge-m3
+100%|██████████| 3327/3327 [00:00<00:00, 665733.95it/s]
+Check Chunks for: 3327 with word embed model >> granite-embedding:278m
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> granite-embedding:278m
+100%|██████████| 3327/3327 [00:00<00:00, 1110492.55it/s]
+Check Chunks for: 3327 with word embed model >> snowflake-arctic-embed2
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> snowflake-arctic-embed2
+100%|██████████| 3327/3327 [00:00<00:00, 390039.67it/s]
+Check Chunks for: 3327 with word embed model >> avr/sfr-embedding-mistral
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> avr/sfr-embedding-mistral
+100%|██████████| 3327/3327 [00:00<00:00, 832207.15it/s]
+Check Chunks for: 3327 with word embed model >> mxbai-embed-large
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> mxbai-embed-large
+100%|██████████| 3327/3327 [00:00<00:00, 664592.53it/s]
+Check Chunks for: 3327 with word embed model >> nomic-embed-text
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326>> nomic-embed-text
+100%|██████████| 3327/3327 [00:00<00:00, 1111731.15it/s]
+Number of document parts in the DB: 49767
+Check Chunks for: 3327 with word Principal model >> deepseek-r1_8b
+  0%|          | 0/3327 [00:00<?, ?it/s]✅ No new documents to add 3327 to 3326
+100%|██████████| 3327/3327 [00:00<00:00, 662164.25it/s]
+💻 📝obtaining product similarities
+  0%|          | 0/3327 [00:00<?, ?it/s]CANDY | facilities/outdoor--pool/outdoor--tables | outdoor to tables
+>>>>> {'furniture-fixtures--equipment/furniture/back-of-house--office/back-of-house-seating': 3.1999999999999993, 'furniture-fixtures--equipment/furniture/outdoor--pool/flags': 3.6499999999999995, 'food-service--supplies/furniture/chairs': 46.449999999999996, 'furniture-fixtures--equipment/furniture/seating': 7.749999999999999, 'guestroom-accessories--supplies/in-room-stationery--accessories/ice-buckets--accessories/cork-screws': 4.1, 'furniture-fixtures--equipment/furniture/back-of-house--office/chair-mats': 9.599999999999998, 'guestroom-accessories--supplies/terry/bath-mats--rugs': 7.749999999999999, 'maintenance-repairs--operations/tools--equipment/squeegees-and-accessories': 3.6499999999999995, 'food--beverages/beverages/coffee': 11.849999999999998, 'furniture-fixtures--equipment/equipment/ice--commercial-refrigeration/merchandisers': 3.1999999999999993, 'furniture-fixtures--equipment/equipment/safes--security/in-room--office-safes': 3.1999999999999993, 'food-service--supplies/food--beverage-displays/coffee-airpots-urns--accessories': 14.55, 'furniture-fixtures--equipment/lobby-accessories/picture-frames': 13.649999999999999, 'furniture-fixtures--equipment/fixtures/lighting/backlit-mirrors': 3.1999999999999993, 'food-service--supplies/furniture/tables': 28.65, 'bathroom-accessories--hardware/public-restrooms/public-restroom-mats': 3.1999999999999993, 'food-service--supplies/dining-room--table-top/dinnerware/sets': 8.649999999999999, 'furniture-fixtures--equipment/furniture/outdoor--pool/outdoor-tables': 20.95, 'food-service--supplies/dining-room--table-top/table--banquet-linens/table-skirts--accessories': 3.6499999999999995, 'food-service--supplies/dining-room--table-top/glassware--drinkware/fine--wine-glasses': 3.6499999999999995, 'furniture-fixtures--equipment/lobby-accessories/faux-plants': 15.5, 'food-service--supplies/dining-room--table-top/dinnerware/plates': 10, 'furniture-fixtures--equipment/furniture/chairs': 40.949999999999996, 'furniture-fixtures--equipment/lobby-accessories/sign-holders--stands': 7.299999999999999, 'furniture-fixtures--equipment/lobby-accessories/flower-vases--planters': 7.749999999999999, 'facilities/outdoor--pool/outdoor--tables': 13.649999999999999, 'food-service--supplies/dining-room--table-top/flatware--serveware/ladles': 6.399999999999999, 'guestroom-accessories--supplies/ironing-boards-covers--mounts/ironing-board-wall-mounts--organizers': 15.949999999999998, 'furniture-fixtures--equipment/fixtures/banquet-dining--events/podiums--lecterns': 13.2, 'food-service--supplies/food--beverage-displays/containers-bowls--caddies': 4.1, 'furniture-fixtures--equipment/fixtures/banquet-dining--events/tables': 21.849999999999998, 'furniture-fixtures--equipment/fixtures/lighting/ceiling-lights': 3.1999999999999993, 'furniture-fixtures--equipment/furniture/artwork--mirrors/mirrors': 3.1999999999999993, 'furniture-fixtures--equipment/fixtures/hospitality--commercial-seating': 22.349999999999998, 'guestroom-accessories--supplies/ironing-boards-covers--mounts/ironing-boards': 9.1, 'furniture-fixtures--equipment/fixtures/banquet-dining--events/meeting-accessories': 6.849999999999999, 'furniture-fixtures--equipment/furniture/furniture-collections': 21.849999999999998, 'food-service--supplies/dining-room--table-top/dinnerware/serving-platters': 3.1999999999999993, 'furniture-fixtures--equipment/furniture/countertop': 32.8, 'food-service--supplies/dining-room--table-top/glassware--drinkware/beverage-glasses': 4.55, 'food-service--supplies/dining-room--table-top/flatware--serveware/pot-forks': 3.6499999999999995, 'furniture-fixtures--equipment/furniture/outdoor--pool/outdoor-seating': 10.499999999999998, 'bathroom-accessories--hardware/bathroom-accessories/amenity-trays': 4.55, 'janitorial--housekeeping/key-cards--accessories/key-cards': 3.6499999999999995, 'guestroom-accessories--supplies/in-room-stationery--accessories/pens--pencils': 8.2, 'furniture-fixtures--equipment/fixtures/banquet-dining--events/chairs': 27.799999999999997, 'bathroom-accessories--hardware/bathroom-accessories/bathroom-containers': 8.649999999999999, 'furniture-fixtures--equipment/lobby-accessories/pillows': 3.6499999999999995, 'electronics--appliances/coffee-makers--espresso-machines': 3.6499999999999995, 'furniture-fixtures--equipment/furniture/desk--tables': 31.400000000000002} <<<<<
+  0%|          | 1/3327 [01:04<59:09:26, 64.03s/it]  0%|          | 2/3327 [01:10<27:42:36, 30.00s/it]  0%|          | 3/3327 [01:11<15:33:34, 16.85s/it]  0%|          | 4/3327 [01:14<10:38:14, 11.52s/it]  0%|          | 5/3327 [01:17<7:47:04,  8.44s/it]   0%|          | 6/3327 [01:20<6:09:30,  6.68s/it]  0%|          | 7/3327 [01:22<4:31:09,  4.90s/it]  0%|          | 8/3327 [01:23<3:27:17,  3.75s/it]  0%|          | 9/3327 [01:25<2:54:12,  3.15s/it]  0%|          | 10/3327 [01:27<2:37:18,  2.85s/it]  0%|          | 11/3327 [01:29<2:22:40,  2.58s/it]  0%|          | 12/3327 [01:31<2:08:03,  2.32s/it]  0%|          | 13/3327 [01:32<1:58:35,  2.15s/it]  0%|          | 14/3327 [01:34<1:50:32,  2.00s/it]  0%|          | 15/3327 [01:36<1:48:18,  1.96s/it]  0%|          | 16/3327 [01:38<1:46:14,  1.93s/it]  1%|          | 17/3327 [01:40<1:42:05,  1.85s/it]  1%|          | 18/3327 [01:41<1:41:00,  1.83s/it]
