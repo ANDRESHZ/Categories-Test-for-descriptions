@@ -34,6 +34,7 @@ In this approach, a single embedding model is used to convert both category and 
 
 This method is simple and fast, but its reliance on a single search strategy can make it vulnerable to noise or ambiguous product descriptions.
 
+ OUTPUT: [Download Json Response (**answer_templateOneLLMEmb.json**)](https://github.com/ANDRESHZ/LILO-Categories-Test/blob/main/LocalLLM/OneLLMEmb/answer_templateOneLLMEmb.json)
 ---
 
 ## Approach 2: Voting-based Similarity Search
@@ -50,6 +51,7 @@ The second approach improves on the first by incorporating multiple similarity s
 
 This approach adds robustness by reducing the likelihood of misclassification through a consensus-based decision, at the expense of increased computational overhead.
 
+  OUTPUT: [Download Json Response (**answer_templateOneLLMEmbVoting.json**)](https://github.com/ANDRESHZ/LILO-Categories-Test/blob/main/LocalLLM/OneLLMEmbVoting/answer_templateOneLLMEmbVoting.json)
 ---
 
 ## Approach 3: Multi-embedding Model Ensemble with Parallelization
@@ -67,6 +69,7 @@ The third and most advanced approach builds on the previous solutions by combini
 
 This approach is the most robust and scalable, though it requires greater computational resources and a more complex deployment setup.
 
+OUTPUT: [Download Json Response (**answer_templateOneLLM_MultEmbVoting.json**)](https://github.com/ANDRESHZ/LILO-Categories-Test/blob/main/LocalLLM/OneLLM_MultEmbVoting/answer_templateOneLLM_MultEmbVoting.json)
 ---
 
 ## Comparison of Approaches
